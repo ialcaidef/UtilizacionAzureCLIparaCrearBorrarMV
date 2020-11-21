@@ -10,11 +10,11 @@ az login
 
 ![01](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/01.png)
 
-![02](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\02.png)
+![02](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/02.png)
 
-![03](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\03.png)
+![03](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/03.png)
 
-![05](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\05.png)
+![05](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/05.png)
 
 ### Creando un grupo de recursos
 
@@ -22,9 +22,9 @@ az login
 az group create -l EastUS -n myRGCLI 
 ```
 
-![06](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\06.png)
+![06](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/06.png)
 
-![07](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\07.png)
+![07](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/07.png)
 
 ### Creando una máquina virtual Linux
 
@@ -39,11 +39,11 @@ az vm create ^
  --no-wait
 ```
 
-![09](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\09.png)
+![09](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/09.png)
 
-![08](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\08.png)
+![08](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/08.png)
 
-![10](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\10.png)
+![10](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/10.png)
 
 Conectarse a la máquina Virtual de Linux
 
@@ -54,11 +54,11 @@ Nota: Dar que si en la creación del certificado SSH
 
 Hay que cambiar la password desde el portal de azure para poder conectar por ssh, ya que tiene que tener un mínimo de 12 caracteres entre otras restricciones.
 
-![12](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\12.png)
+![12](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/12.png)
 
 Una vez cambiada, ya se puede acceder por ssh
 
-![11](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\11.png)
+![11](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/11.png)
 
 1 - Actualizar en Linux
 
@@ -66,7 +66,7 @@ Una vez cambiada, ya se puede acceder por ssh
 sudo apt-get update
 ```
 
-![13](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\13.png)
+![13](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/13.png)
 
 2 - Hacer el upgrade
 
@@ -74,7 +74,7 @@ sudo apt-get update
 sudo apt upgrade
 ```
 
-![14](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\14.png)
+![14](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/14.png)
 
 3 - Instalar un servidor web
 
@@ -82,7 +82,7 @@ sudo apt upgrade
 sudo apt install -y apache2 apache2-utils
 ```
 
-![15](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\15.png)
+![15](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/15.png)
 
 4 - Vemos el estatus de Apache
 
@@ -90,7 +90,7 @@ sudo apt install -y apache2 apache2-utils
 systemctl status apache2
 ```
 
-![16](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\16.png)
+![16](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/16.png)
 
 5 - Ponemos un mensaje en nuestra página de Apache
 
@@ -98,7 +98,7 @@ systemctl status apache2
 cd /var/www/html
 ```
 
-![17](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\17.png)
+![17](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/17.png)
 
 6 - Poner una nota en la página inde.html
 
@@ -110,7 +110,7 @@ sudo vi index.html <ENTER>
 
 ```
 
-![18](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\18.png):
+![18](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/18.png):
 
 7 - Salir del SSH
 
@@ -128,7 +128,7 @@ Name: Port_80
 
 Probariamos que llegamos a la maquina virtual: con la IP desde cualquier navegador.
 
-![19](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\19.png)
+![19](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/19.png)
 
 ## Parar y "deallocate" la máquina virtual
 
@@ -140,7 +140,7 @@ az vm stop --resource-group myRGCLI --name myVMCLI --no-wait
 az vm deallocate -g myRGCLI -n myVMCLI --no-wait
 ```
 
-![20](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\20.png)
+![20](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/20.png)
 
 ## Iniciar la máquina virtual
 
@@ -148,7 +148,7 @@ az vm deallocate -g myRGCLI -n myVMCLI --no-wait
 az vm start -g myRGCLI -n myVMCLI --no-wait
 ```
 
-![21](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\21.png)
+![21](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/21.png)
 
 ## Borrar la máquina virtual
 
@@ -156,7 +156,7 @@ az vm start -g myRGCLI -n myVMCLI --no-wait
 az vm delete -g myRGCLI -n myVMCLI --yes --no-wait
 ```
 
-![22](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\22.png)
+![22](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/22.png)
 
 ### Mostrar informacion de la máquina virtual
 
@@ -164,7 +164,7 @@ az vm delete -g myRGCLI -n myVMCLI --yes --no-wait
 az vm show -g myRGCLI -n myVMCLI -d
 ```
 
-![23](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\23.png)
+![23](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/23.png)
 
 Borrar el grupo de recursos
 
@@ -172,9 +172,9 @@ Borrar el grupo de recursos
 az group delete -n myRGCLI  --yes --no-wait
 ```
 
-![24](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\24.png)
+![24](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/24.png)
 
-![25](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\25.png)
+![25](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/25.png)
 
 ## Desconectamos de Azure
 
@@ -182,7 +182,7 @@ az group delete -n myRGCLI  --yes --no-wait
 az logout
 ```
 
-![26](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\26.png)
+![26](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/26.png)
 
 Mas información:
 
