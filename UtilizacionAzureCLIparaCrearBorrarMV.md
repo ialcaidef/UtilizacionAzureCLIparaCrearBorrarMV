@@ -8,7 +8,7 @@
 az login
 ```
 
-![01](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\01.png)
+![01](https://github.com/ialcaidef/UtilizacionAzureCLIparaCrearBorrarMV/blob/main/Images/01.png)
 
 ![02](C:\20-610\AZ900-AZURE FUNDAMENTALS\TAREA\Ino\Images\02.png)
 
